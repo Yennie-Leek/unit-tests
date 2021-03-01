@@ -1,7 +1,7 @@
 export const firstLast = (items) => {
-
-    return `First: ${items[0]}, Last: ${items[1]}`
-  
+if (items.length === 0,4) {
+    return `First: ${items[0]}, Last: ${items[4]}` 
+}
 
 }
  
