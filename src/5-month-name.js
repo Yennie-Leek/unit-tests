@@ -6,3 +6,12 @@ const months = [
 export const monthName = (monthNumber) => {
   return months[monthNumber]
 }
+
+// export const monthName = (monthNumber) => {
+//   if (monthNumber >= 1 && monthNumber <= 12) {
+//     return months[monthNumber - 1]
+//   } else {
+//     return null
+//   }
+// }
+
